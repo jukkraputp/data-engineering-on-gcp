@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "proj-sales-prediction"
+version = "0.1.0"
+description = ""
+authors = ["Jukkraput <78992646+jukkraputp@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.25"
+pandas = "^2.1.4"
+pymysql = "^1.1.0"
+google-cloud-storage = "^2.14.0"
+google-cloud-bigquery = "^3.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

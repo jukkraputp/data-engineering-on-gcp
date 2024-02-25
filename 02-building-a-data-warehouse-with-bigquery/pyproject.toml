@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "02-building-a-data-warehouse-with-bigquery"
+version = "0.1.0"
+description = ""
+authors = ["Jukkraput <78992646+jukkraputp@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-cloud-bigquery = "^3.16.0"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
